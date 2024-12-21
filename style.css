@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(233, 11, 11);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.item:hover {
+  color: blue;
+}
+
+main {
+  padding: 1rem;
+
+}
+
+.main h1 {
+  text-align: center;
+  color: rgb(242, 28, 28);
+
+}
+
+main section {
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.container img {
+  max-width: 50%;
+  height: auto;
+  flex: 1;
+}
+
+.container .text {
+  flex: 1;
+  padding: 20px;
+  text-align: justify;
+}
+
+.container .text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+
+.register {
+  padding: 20px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-set {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.icon,
+.up-arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.icon i {
+  font-size: 2rem;
+  color: black;
+}
+
+.icon:hover {
+  background-image: linear-gradient(to bottom right, red, blue);
+}
+
+.icon:hover i {
+  color: white;
+  animation: shake 0.7s;
+}
+
+.up-arrow {
+  background-image: linear-gradient(to bottom right, red, blue);
+  float: right;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+
+  20% {
+    transform: rotate(-15deg);
+  }
+
+  30% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-15deg);
+  }
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container .text {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Mobile */
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
