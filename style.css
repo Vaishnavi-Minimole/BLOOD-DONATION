@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: rgb(233, 11, 11);
+  background-color: rgb(228, 63, 63);
   color: white;
   padding: 1rem;
   text-align: center;
@@ -41,12 +41,19 @@ main {
 
 .main h1 {
   text-align: center;
-  color: rgb(242, 28, 28);
+  color: rgb(99, 15, 15);
 
 }
 
 main section {
   margin-bottom: 2rem;
+}
+
+.banner{
+  background-position: relative;
+  background-image: url("https://wallpapercave.com/wp/wp4323463.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
@@ -57,10 +64,8 @@ main section {
   margin: 20px;
 }
 
-.container img {
-  max-width: 50%;
-  height: auto;
-  flex: 1;
+.text{
+  color: rgb(13, 13, 70);
 }
 
 .container .text {
@@ -83,6 +88,25 @@ main section {
   text-align: center;
 }
 
+.button_modify{
+  background-color: rgb(120, 14, 14);
+  color: whitesmoke;
+  border: 1px solid #5a1403;
+  padding: 10px 20px;
+  width: 200px;
+  margin: 10px auto;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.button_modify:hover {
+  background-color: rgb(41, 3, 3);
+  transform: scale(1.1);
+}
 .icon-set {
   display: flex;
   justify-content: center;
