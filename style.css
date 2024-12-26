@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: rgb(228, 63, 63);
+  background-color: rgb(245, 10, 10);
   color: white;
   padding: 1rem;
   text-align: center;
@@ -41,7 +41,7 @@ main {
 
 .main h1 {
   text-align: center;
-  color: rgb(99, 15, 15);
+  color: rgb(138, 27, 27);
 
 }
 
@@ -51,7 +51,7 @@ main section {
 
 .banner{
   background-position: relative;
-  background-image: url("https://wallpapercave.com/wp/wp4323463.jpg");
+  background-image: url("https://pbs.twimg.com/media/DnSx5X4U4AE7FvG.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -86,10 +86,11 @@ main section {
   display: block;
   justify-content: center;
   text-align: center;
+  color: rgb(10, 10, 72);
 }
 
 .button_modify{
-  background-color: rgb(120, 14, 14);
+  background-color: rgb(158, 45, 45);
   color: whitesmoke;
   border: 1px solid #5a1403;
   padding: 10px 20px;
